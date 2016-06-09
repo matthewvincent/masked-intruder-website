@@ -336,14 +336,14 @@ module.exports =
         _react2['default'].createElement(
           PreorderButton,
           {
-            link: 'http://smarturl.it/VannaMA'
+            link: 'http://smarturl.it/Masked'
           },
           ' BUY CD/EP'
         ),
         _react2['default'].createElement(
           PreorderButton,
           {
-            link: 'http://smarturl.it/VannaMA'
+            link: 'http://geni.us/MIEP?app=itunes'
           },
           ' BUY DIGITAL'
         )
@@ -1040,7 +1040,7 @@ module.exports =
 
   var merchStores = [{
   	name: "Merch Now",
-  	link: "http://maskedintruder.merchnow.com/",
+  	link: "http://smarturl.it/Masked",
   	thumbnail: _staticMerchnowPng2['default'],
   	country: "United States"
   }, {
