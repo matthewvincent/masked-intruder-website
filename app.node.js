@@ -65,7 +65,7 @@ module.exports =
 
   var _react2 = _interopRequireDefault(_react);
 
-  var _reactDom = __webpack_require__(47);
+  var _reactDom = __webpack_require__(48);
 
   var _reactDom2 = _interopRequireDefault(_reactDom);
 
@@ -236,15 +236,15 @@ module.exports =
 
   var _fbjsLibExecutionEnvironment = __webpack_require__(6);
 
-  var _historyLibCreateBrowserHistory = __webpack_require__(44);
+  var _historyLibCreateBrowserHistory = __webpack_require__(45);
 
   var _historyLibCreateBrowserHistory2 = _interopRequireDefault(_historyLibCreateBrowserHistory);
 
-  var _historyLibCreateMemoryHistory = __webpack_require__(45);
+  var _historyLibCreateMemoryHistory = __webpack_require__(46);
 
   var _historyLibCreateMemoryHistory2 = _interopRequireDefault(_historyLibCreateMemoryHistory);
 
-  var _historyLibUseQueries = __webpack_require__(46);
+  var _historyLibUseQueries = __webpack_require__(47);
 
   var _historyLibUseQueries2 = _interopRequireDefault(_historyLibUseQueries);
 
@@ -297,6 +297,10 @@ module.exports =
 
   var _staticAlbumCoverPng2 = _interopRequireDefault(_staticAlbumCoverPng);
 
+  var _staticAlbumCover2Png = __webpack_require__(40);
+
+  var _staticAlbumCover2Png2 = _interopRequireDefault(_staticAlbumCover2Png);
+
   var _staticPromo1Png = __webpack_require__(5);
 
   var _staticPromo1Png2 = _interopRequireDefault(_staticPromo1Png);
@@ -327,7 +331,7 @@ module.exports =
         _react2['default'].createElement(
           'h1',
           null,
-          'IN STORES JUNE 30, 2016'
+          'IN STORES JULY 8, 2016'
         ),
         _react2['default'].createElement(
           PreorderButton,
@@ -353,7 +357,7 @@ module.exports =
       'div',
       { className: 'album-art-wrapper' },
       _react2['default'].createElement('img', {
-        src: _staticAlbumCoverPng2['default'],
+        src: _staticAlbumCover2Png2['default'],
         className: 'album-art'
       }),
       _react2['default'].createElement(
@@ -362,7 +366,7 @@ module.exports =
         _react2['default'].createElement(
           'h2',
           null,
-          'NEW ALBUM'
+          'NEW EP'
         ),
         _react2['default'].createElement(
           'h1',
@@ -372,7 +376,7 @@ module.exports =
         _react2['default'].createElement(
           'h2',
           null,
-          'OUT 06.30.2016'
+          'OUT 07.08.2016'
         )
       )
     );
@@ -635,7 +639,7 @@ module.exports =
 
   var _react2 = _interopRequireDefault(_react);
 
-  var _staticMainLogoPng = __webpack_require__(42);
+  var _staticMainLogoPng = __webpack_require__(43);
 
   var _staticMainLogoPng2 = _interopRequireDefault(_staticMainLogoPng);
 
@@ -1022,15 +1026,15 @@ module.exports =
 
   var _static24hundredPng2 = _interopRequireDefault(_static24hundredPng);
 
-  var _staticAll_in_logoPng = __webpack_require__(40);
+  var _staticAll_in_logoPng = __webpack_require__(41);
 
   var _staticAll_in_logoPng2 = _interopRequireDefault(_staticAll_in_logoPng);
 
-  var _staticMerchnowPng = __webpack_require__(43);
+  var _staticMerchnowPng = __webpack_require__(44);
 
   var _staticMerchnowPng2 = _interopRequireDefault(_staticMerchnowPng);
 
-  var _staticJxrPng = __webpack_require__(41);
+  var _staticJxrPng = __webpack_require__(42);
 
   var _staticJxrPng2 = _interopRequireDefault(_staticJxrPng);
 
@@ -1951,46 +1955,52 @@ module.exports =
 /* 40 */
 /***/ function(module, exports, __webpack_require__) {
 
-  module.exports = __webpack_require__.p + "20e08ad91b4bc6ea8d7c95d19cb72edc.png";
+  module.exports = __webpack_require__.p + "25df8f5120940542b8048f1859af582a.png";
 
 /***/ },
 /* 41 */
 /***/ function(module, exports, __webpack_require__) {
 
-  module.exports = __webpack_require__.p + "a6d8b3259b2c90680b8f1101c334f6df.png";
+  module.exports = __webpack_require__.p + "20e08ad91b4bc6ea8d7c95d19cb72edc.png";
 
 /***/ },
 /* 42 */
 /***/ function(module, exports, __webpack_require__) {
 
-  module.exports = __webpack_require__.p + "c9d0fd85fa0903237d99bfe66e2e9823.png";
+  module.exports = __webpack_require__.p + "a6d8b3259b2c90680b8f1101c334f6df.png";
 
 /***/ },
 /* 43 */
 /***/ function(module, exports, __webpack_require__) {
 
-  module.exports = __webpack_require__.p + "8e8b99a1beeb96ad060727c53cbaf515.png";
+  module.exports = __webpack_require__.p + "c9d0fd85fa0903237d99bfe66e2e9823.png";
 
 /***/ },
 /* 44 */
-/***/ function(module, exports) {
+/***/ function(module, exports, __webpack_require__) {
 
-  module.exports = require("history/lib/createBrowserHistory");
+  module.exports = __webpack_require__.p + "8e8b99a1beeb96ad060727c53cbaf515.png";
 
 /***/ },
 /* 45 */
 /***/ function(module, exports) {
 
-  module.exports = require("history/lib/createMemoryHistory");
+  module.exports = require("history/lib/createBrowserHistory");
 
 /***/ },
 /* 46 */
 /***/ function(module, exports) {
 
-  module.exports = require("history/lib/useQueries");
+  module.exports = require("history/lib/createMemoryHistory");
 
 /***/ },
 /* 47 */
+/***/ function(module, exports) {
+
+  module.exports = require("history/lib/useQueries");
+
+/***/ },
+/* 48 */
 /***/ function(module, exports) {
 
   module.exports = require("react-dom");
