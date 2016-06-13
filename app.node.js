@@ -713,12 +713,12 @@ module.exports =
           href: "/",
           show: true
         }, {
-          name: "Videos",
-          href: "/videos",
-          show: true
-        }, {
           name: "Merch",
           href: "/merch",
+          show: true
+        }, {
+          name: "Videos",
+          href: "/videos",
           show: true
         }, {
           name: "Tour",
